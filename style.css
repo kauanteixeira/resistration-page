@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
+#form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 340px;
+    height: 340px;
+    padding: 30px;
+    background-image: linear-gradient(145deg, rgb(140, 0, 255), rgb(204, 0, 255));
+    border-radius: 5px;
+    margin-top: 100px;
+}
+
+#inputNome {
+    display: block;
+    width: 300px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 0.625rem;
+}
+#inputSobrenome {
+    display: block;
+    width: 300px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 0.625rem;
+}
+#inputEmail {
+    display: block;
+    width: 300px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 0.625rem;
+}
+#inputSenha {
+    display: block;
+    width: 300px;
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 0.625rem;
+}
+
+#btn {
+    border: none;
+    width: 300px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(192, 169, 255);
+    border: none;
+}
+
+#btn:hover {
+    transition: all;
+    background-color: rgb(168, 137, 255);
+    transition-duration: .5s;
+}
+
+h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+#registrado {
+    display: none;
+    text-align: center;
+}
+
+
+#itsOk {
+    display: none;
+    border: none;
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(192, 169, 255);
+}
+
+#itsOk:hover {
+    transition: all;
+    background-color: rgb(168, 137, 255);
+    transition-duration: .5s;
+}
